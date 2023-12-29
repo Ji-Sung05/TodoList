@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 
-import InterFont from '../fonts/RubikBubbles-Regular.ttf';
+import SkyFont from '../fonts/SKYBORI.ttf';
 
 const Global = createGlobalStyle`
   @font-face {
     font-family: 'Inter';
-    src: url(${InterFont}) format('truetype');
+    src: url(${SkyFont}) format('truetype');
     font-weight: 1 999;
     font-display: swap;
   }
