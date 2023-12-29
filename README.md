@@ -55,7 +55,6 @@ $ npm start
 | TodoList                        | 
 | :---------------------------------: | 
 | <img src="https://github.com/Ji-Sung05/todo_ji/assets/115493374/f9243c53-90c9-443e-b73c-b93389ea8f74" width="300" />
-  |
 
 
 
