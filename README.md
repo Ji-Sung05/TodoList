@@ -20,7 +20,7 @@ For building and running the application you need:
 
 ### Installation
 ``` bash
-$ git clone https://github.com/Ji-Sung05/todo_ji.git
+$ git clone https://github.com/Ji-Sung05/TodoList.git
 ```
 
 #### Frontend
