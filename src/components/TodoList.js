@@ -4,6 +4,17 @@ import { useDispatch, useSelector } from 'react-redux';
 import List from './List';
 import NewList from './NewList';
 import { fetchTodos, addTodo, deleteTodo, updateTodo } from '../store/thunkFunction';
+import styled from 'styled-components';
+
+const ListContainer = styled.div`
+  height: 761px;
+  overflow: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style:none;
+  &::-webkit-scrollbar{
+    display:none;
+  }
+`;
 
 const TodoList = () => {
   const dispatch = useDispatch();
@@ -29,7 +40,8 @@ const TodoList = () => {
     <div className='flex flex-col h-600px'>
       <NewList
         onAdd={handleAddList} />
-      {lists.map((list) => (
+      <ListContainer>
+        {lists.map((list) => (
         <List
           key={list.id}
           id={list.id}
@@ -39,6 +51,7 @@ const TodoList = () => {
           onUpdate={handleUpdateList}
         />
       ))}
+      </ListContainer>
     </div>
   );
 };
