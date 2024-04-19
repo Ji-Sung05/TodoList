@@ -2,13 +2,20 @@
 # TodoList
 > **토이 프로젝트 - TodoList** <br/> **개발기간: 2023.12.28 ~ 2023.12.29**                                                                                                                          
 
-## 프로젝트 소개
+## Project Introduction
 이 프로젝트는 간단한 투두리스트를 만드는 것이지만 그동안 개념이 부족해 사용해보지 못 했던 여러 개념들을 적용하여 만든 프로젝트이다.
 > 이번 프로젝트에서 사용한 것들
 - tailwind css 사용하기
 - JSON-server를 사용하여 REST-API를 구축하기
-- 리덕스를 사용하여 상태 관리 하기
+- 리덕스 툴킷을 사용하여 상태 관리 하기
 - 커스텀 훅을 사용하여 좀 더 깔끔한 코드 작성하기
+
+This project is a simple to-do list, but it's a project where I applied several concepts I hadn't used before due to a lack of understanding.
+> The things used in this project.
+- Using Tailwind CSS.
+- Building REST API using JSON-server.
+- Managing state using Redux Toolkit.
+- Writing cleaner code using custom hooks.
  
 
 ## 시작 가이드
@@ -59,18 +66,21 @@ $ npm start
 
 
 ---
-## 주요 기능 📦
+## 주요 기능 main function📦
 
 ### ⭐️ Redux-Toolkit
 - `createSlice` 함수를 사용하여 Reducer 및 Action을 쉽게 생성할 수 있고 `extraReducers` 옵션을 통해 비동기 작업의 상태 변화에 따른 처리를 할 수 있다.
+- You can easily generate Reducers and Actions using the `createSlice` function, and handle asynchronous state changes with the `extraReducers` option.
 
 <img src="https://github.com/Ji-Sung05/loginform/assets/115493374/c078062d-58b7-4b33-b88c-f0907198b673" width="300" />
 
 ### ⭐️ createAsyncThunk
 - `createAsyncThunk` 은 Redux Toolkit에서 제공하는 유틸리티 함수로 비동기 작업을 수행하고, 성공 및 실패에 따라 알맞은 액션을 디스패치하는 Thunk 함수를 생성할 수 있다.
+- `createAsyncThunk` is a utility function provided by Redux Toolkit that allows you to perform asynchronous operations and generate Thunk functions dispatching appropriate actions based on success or failure.
 
-### ⭐️ 커스텀 훅
+### ⭐️ 커스텀 훅 custom hook
 - 커스텀 훅을 사용하면 컴포넌트에서 상태 및 이벤트 핸들러를 하나로 묶어서 간결하게 관리할 수 있다.
+- By using `custom hooks`, you can manage state and event handlers in components more concisely by bundling them together.
 
 ---
 ## 아키텍쳐
@@ -96,5 +106,7 @@ C:.
 ├─styles
 └─utils
 ```
-## 회고록
+## 회고록 memoir
 이번 프로젝트를 하면서 새로운 개념들을 이해하고 적용하기 위해 많은 시간을 보냈다. 무작정 강의 영상 보면서 따라 치는 것이 아닌 강의에 나온 개념을 직접 내 프로젝트에 사용하면서 고쳐나가니 훨씬 이해가 잘 되는 것 같다. 리덕스를 사용하여 상태 관리하는 것과 createAsyncThunk, 커스텀 훅은 기본적이면서도 중요한 개념이기 때문에 다음 프로젝트에도 사용하여 익숙해져야겠다.
+
+During this project, I spent a lot of time understanding and applying new concepts. Instead of blindly following tutorial videos, I found that I understand much better when I directly apply the concepts covered in the lectures to my own project and iterate on them. Since using Redux for state management, createAsyncThunk, and custom hooks are fundamental yet important concepts, I should continue using them in the next project to become more familiar with them.
