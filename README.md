@@ -1,6 +1,8 @@
 
 # TodoList
-> **토이 프로젝트 - TodoList** <br/> **개발기간: 2023.12.28 ~ 2023.12.29**                                                                                                                          
+> **토이 프로젝트 - TodoList** <br/> **개발기간: 2023.12.28 ~ 2023.12.29**
+
+![Todo (1)](https://github.com/Ji-Sung05/TodoList/assets/115493374/cb2b13be-355b-4aa2-8506-4cc3d484187f)                      
 
 ## Project Introduction
 이 프로젝트는 간단한 투두리스트를 만드는 것이지만 그동안 개념이 부족해 사용해보지 못 했던 여러 개념들을 적용하여 만든 프로젝트이다.
@@ -62,8 +64,6 @@ $ npm start
 | TodoList                        | 
 | :---------------------------------: | 
 | <img src="https://github.com/Ji-Sung05/todo_ji/assets/115493374/f9243c53-90c9-443e-b73c-b93389ea8f74" width="300" />
-
-
 
 ---
 ## 주요 기능 main function📦
